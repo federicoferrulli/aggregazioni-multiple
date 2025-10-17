@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import 'primeicons/primeicons.css';
+
+:root{
+    --bg-card: #18181b;
+}
+html, body{
+    width: 100dvw;
+    height: 100dvh;
+    user-select: none;
+}
