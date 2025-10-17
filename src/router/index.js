@@ -14,7 +14,7 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: 'notfound',
     redirect: () => {
-        return { path: '/dashboard'}
+        return { path: '/'}
     },
   }
 ];
